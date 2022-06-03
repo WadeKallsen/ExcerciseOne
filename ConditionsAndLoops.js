@@ -100,13 +100,18 @@ while (i <= 50){
 // edit the previous do/while loop so that it prints the remainder when the loop number is divided by 4
 var i = 1;
 
-while (i <=50){
-    if (i % 4 == 0){
-        console.log(i);
-    } i++;
-}
+do { 
+    if (i % 4 ==0 ){
+    console.log(i); }
+    i++; 
+} while (i <= 50); 
 
 // Someone messed up the following for loop
 // fix the following infinite loop, uncomment to test
 
   
+var i = 1;
+do{ 
+    console.log(i);
+    i++;
+} while (i <=50); 
