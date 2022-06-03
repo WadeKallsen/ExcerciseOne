@@ -80,3 +80,35 @@ switch(studentClass = 13){
     default:
         console.log("Error"); 
 }
+
+
+// write a for loop that will iterate backwards from 10 to -10
+
+for (var i = 10; i >=-10; i--){
+    console.log(i);
+}
+
+// write a do/while loop that prints 1 through 50
+var i = 1;
+
+while (i <=50){
+    console.log(i);
+    i++;
+}
+
+
+
+// edit the previous do/while loop so that it prints the remainder when the loop number is divided by 4
+var i = 1;
+while (i<=50){
+    if (i % 4 == 0 ){
+        console.log(i);
+    } i++;
+}
+
+// Someone messed up the following for loop
+// fix the following infinite loop, uncomment to test
+
+    for (let i = 1; i < 10; i++){
+        console.log(i);
+    } 
