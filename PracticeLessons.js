@@ -35,3 +35,20 @@ for (i in names){
 for (i of names ){
     console.log(i);
 }
+
+var loggedIn = false;
+
+while (!loggedIn){
+
+
+
+var username = window.prompt ("Username:");
+var password = window.prompt ("Password:");
+
+if (username === "WaderK25" && password === "2345"){
+    window.alert("Admin access granted.");
+    loggedIn = true;
+} else{
+    window.alert("Access Denied.")
+}
+}
