@@ -51,9 +51,19 @@ if (username === "WaderK25" && password === "2345"){
     loggedIn = true; }
 } else{
     window.alert("Access Denied.") */ 
-for (var i =0; i <=100; i++){
+/* for (var i =0; i <=100; i++){
     if (i % 2!== 0)
     console.log(i);
+} */
+
+var customerName = [];
+customerName.push("Wade");
+customerName.push("Andrea");
+customerName.push("Saprina");
+console.log(customerName.length);
+
+for (var i= 0; i < customerName.length; i++){
+    console.log(customerName[i]);
 }
 
 
