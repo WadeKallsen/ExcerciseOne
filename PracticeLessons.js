@@ -1,4 +1,4 @@
-for (var i = 0; i <10; i++){
+/*for (var i = 0; i <10; i++){
     console.log(i);
 }
 
@@ -38,17 +38,25 @@ for (i of names ){
 
 var loggedIn = false;
 
-while (!loggedIn){
+while (!loggedIn){*/
 
 
 
-var username = window.prompt ("Username:");
+/* var username = window.prompt ("Username:");
 var password = window.prompt ("Password:");
 
+for (var i = 0; i <4; i=++){
 if (username === "WaderK25" && password === "2345"){
     window.alert("Admin access granted.");
-    loggedIn = true;
+    loggedIn = true; }
 } else{
-    window.alert("Access Denied.")
+    window.alert("Access Denied.") */ 
+for (var i =0; i <=100; i++){
+    if (i % 2!== 0)
+    console.log(i);
 }
-}
+
+
+
+
+
